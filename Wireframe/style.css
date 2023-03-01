@@ -1,0 +1,55 @@
+body{
+	background-color: powderblue;
+	text-align: center;
+	margin: 0px;
+}
+.head{
+	position: flex;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+	height: 100px;
+	background-color: red;
+}
+.main{
+	position: flex;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+	height: 60px;
+	background-color: blue;
+}
+.body{
+	position: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	width: 90%;
+	min-height: calc(100vh - 240px);
+	background-color: green;
+}
+.content{
+	position: flex;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 30%;
+	min-width: 250px;
+	height: 100px;
+	background-color: yellow;
+}
+.foot{
+	position: flex;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+	height: 60px;
+	background-color: blue;
+}
